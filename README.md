@@ -14,7 +14,10 @@
    
   ### **Homepage**
   - With camera off (no index finger detected)
+    
     ![Img of homepage](https://i.imgur.com/8tob6NC.png)
+    
   - With camera on (index finger detected)
+    
     ![Img of homepage](https://i.imgur.com/qYBpwry.png)
     ![Img of homepage](https://i.imgur.com/GlneoCp.png)
