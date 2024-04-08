@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>4X Ragdoll</title>
+    <link rel="stylesheet" href="/style.css" />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/p5.min.js"
+      integrity="sha512-eu9vkh+EbAsW3fMmPTj/DP5W3UegIdu0Z/OABMocvoofx43MYBkcQ9hRIVxZndV1vcCYQwBg+U1PkWl04TD0Jg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"
+      crossorigin="anonymous"
+    ></script>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js"
+      crossorigin="anonymous"
+    ></script>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"
+      crossorigin="anonymous"
+    ></script>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"
+      crossorigin="anonymous"
+    ></script>
+    
+    <script src="https://unpkg.com/matter-js@0.19.0/build/matter.js"></script>
+  </head>
+  <body>
+    
+    <main>
+      
+      <div class="container">
+        <video class="input__video"></video>
+        
+
+      </div>
+      
+    </main>
+    
+    <script src="/sketch.js" defer></script>
+    <script src="/detection.js" defer></script>
+    
+<!--     scripts for ragdoll function -->
+    <script src="/ragdoll.js"></script>
+    <script src="/body.js"></script>
+    <script src="/joints.js"></script>
+    <script src="/head.js"></script>
+    
+    <script>
+    
+      
+      
+    </script>
+
+  </body>
+</html>
